@@ -1,0 +1,23 @@
+
+
+div{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background: red;  
+    
+  }
+  
+  /* .container {
+    background: yellow;
+    left: 20px;
+    top: 20px;
+    position:relative; 현재 내위치를 기준으로 이동(상대적)
+    position:absolute; 나와가장 가까운 상자를 기준으로 이동
+    position:static; 기본값
+    position:sticky; 원래 자리에 그대로 있고 스크롤해도 그상태 그대로
+    position:fixed; 상자안을 벗어나 페이지를 기준으로 이동
+    Display: inline 물건
+    Display: inline-block 한줄에 여러개가 직렬될수있는 상자
+    Display: blcok  그냥상자 이지만 1줄당 1개의 상자가 들어감
+  } */
