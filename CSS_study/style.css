@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 44, 44);
+    padding: 8px 12px;
+
+}
+
+.navbar__logos {
+    font-size: 24px;
+    color: white;
+
+}
+
+.navbar__logos i {
+    color: rgb(168, 119, 27);
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar__menu li {
+    padding-left: 0px;
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: rgb(247, 175, 41);
+    border-radius: 6px;
+
+}
+
+.navbar__togleBtn {
+    display: none;
+    position: absolute;
+    right: 28px;
+    top: 8px;
+    font-size: 24px;
+    color: wheat;
+}
+
+.navbar__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    padding-left: 0;
+}
+
+.navbar__icons li {
+    font-size: 24px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.navbar__icons i {
+    color: rgb(73, 169, 224)
+}
+
+
+@media screen and (max-width:768px) {
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .nav___menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(43, 44, 44);
+        width: 100%;
+    }
+
+    .nav__menu li {
+        
+        width: 100%;
+        text-align: center;
+
+        padding: 16px 24px;
+    }
+
+    .nav___icon {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+    .nav___icon li {
+   
+        list-style: none;
+
+        padding: 8px 12px;
+    }
+
+
+
+
+
+    .navbar__togleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+
+
+
+}
