@@ -1,0 +1,50 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="login-form.css">
+</head>
+<body>
+    <h1>회원가입</h1>
+  <!-- 로그인폼 -->
+  <form action ="API" ,method="get">
+      <label for="user-name">이름</label>
+    <input type= "text" placeholder="이름" maxlength="4"
+     value="" id="user-name" >
+    </input>
+    <label for="user-id">아이디</label>
+    <input type= "text" placeholder="아이디" 
+    minlength="4" maxlength="20" value="" id="user-id">
+    </input>
+    <label for="user-email">E-mail</label>
+    <input type= "email" placeholder="이메일" minlength="4" maxlength="20"
+     value="" id="user-email">
+    </input> 
+    <label for="user-password">비밀번호</label>
+    <input type= "password" placeholder="비밀번호"
+     minlength="4" maxlength="20" value="" id="user-password">
+    </input>
+    <label for="user-tel">전화번호</label>
+    <input type= "tel"  pattern="[0-9]{3}-[0-9]{3,4}-[0-9]{4}"  placeholder="전화번호" 
+    maxlength="12"minlength="8" id="user-tel">
+    </input>
+    <!---- 0~9 까지 3자리 -0~9까지 3~4자리 - 0~9까지 4자리 -->
+    <label for="user-number">나이</label>
+    <input type= "number" placeholder="만12세~120세"
+     min="12" max="120" id="user-number" >
+    </input>
+    <label for="user-file">파일첨부</label>
+    <input type= "file" accept =".jpg , .png" id="user-file">
+    </input>
+    <button type="submit">Submit</button>
+
+ 
+
+
+   
+</body>
+</html>

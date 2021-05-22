@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 7, 27);
+    padding: 8px 12px;
+    padding-left: 0px;
+
+}
+
+.navbar__logos {
+    font-size: 24px;
+    color: rgb(46, 46, 46);
+
+}
+
+.navbar__logos i {
+    color: rgb(37, 37, 36);
+    
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0;
+
+}
+
+.navbar__menu li {
+    padding-left: 0px;
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: rgb(247, 175, 41);
+    border-radius: 6px;
+
+}
+metadata{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar__togleBtn {
+    display: none;
+    position: absolute;
+    right: 28px;
+    top: 8px;
+    font-size: 24px;
+    color: rgb(49, 49, 49);
+}
+
+.navbar__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 24px;
+    padding-left: 0;
+}
+
+.navbar__icons li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-left: 0px;
+    padding-right: 7px;
+    list-style: none;
+}
+
+.navbar__icons i {
+    color: rgb(11, 12, 12);
+    font-size: 20px;
+    
+}
+
+
+@media screen and (max-width:2032px) {
+
+    .topLogo{
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        background-color: red;
+    }
+
+  
+   
+
+   /* .nav___menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(43, 44, 44);
+        width: 100%;
+    }*/
+
+    .nav__menu li {
+        
+        width: 100%;
+        text-align: center;
+
+        padding: 16px 24px;
+    }
+
+    .nav___icon {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+    .nav___icon li {
+
+        list-style: none;
+
+        padding: 8px 12px;
+    }
+
+
+
+
+
+    .navbar__togleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+
+    .bodyContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 5%;
+        padding-top: 0%;
+    }
+   .myFocus{
+
+    background-color:rgb(198, 243, 243);
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 30px;
+    border: solid;
+   }
+   .myCall{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color:rgb(255, 255, 255); 
+       padding-top: 3%;
+       padding-left: 1%;
+       padding-bottom: 3%;
+       padding-right: 1%;
+       
+   }
+  /* .myCall>li{
+       display: flex;
+       justify-content: space-between;
+       border:solid;
+       padding-top: 5px;
+       padding-bottom: 3px;
+       padding-right: 10px;
+       padding-left: 20px;
+       background-color:rgb(251, 255, 255); 
+   }*/
+   li{
+       list-style: none;
+   }
+   .myCall_A{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(222, 222, 223);
+   }
+   .metaCall_{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 2.5%;
+       padding-bottom: 2.5%;
+       background-color: rgb(61, 38, 192);
+       
+   }
+   .metaCall{
+       display: flex;
+       justify-content: space-between;
+       padding: 0;
+       padding-top: 2.5%;
+       padding-bottom: 2.5%;
+   }
+   .side{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color: white;
+   }
+.recentIndex{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color:rgb(231, 222, 222); 
+}
+.recentCallA{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallB{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallC{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallD{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallE{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallF{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallG{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallH{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.recentCallI{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+
+
+.recentCallJ{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+
+
+}
+.recentCall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 90%;
+    padding-left: 10%;
+    padding-right: 0;
+    background-color:rgb(255, 255, 255); 
+
+
+}
+.status{
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    flex-direction: column;
+    justify-content: end;
+    
+
+}
+
+
