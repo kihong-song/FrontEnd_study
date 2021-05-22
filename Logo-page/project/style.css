@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 44, 44);
+    padding: 8px 12px;
+
+}
+
+.navbar__logos {
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+
+}
+
+.navbar__logos i {
+    width: 30%;
+    height: 30%;
+    color: rgb(245, 12, 121);
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar__menu li {
+    padding-left: 0px;
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: rgb(247, 175, 41);
+    border-radius: 6px;
+
+}
+
+.navbar__togleBtn {
+    display: none;
+    position: absolute;
+    right: 28px;
+    top: 8px;
+    font-size: 24px;
+    color: wheat;
+}
+
+.navbar__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    padding-left: 0;
+}
+
+.navbar__icons li {
+    font-size: 24px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.navbar__icons i {
+    display: flex;
+    color: rgb(73, 169, 224)
+}
+
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar__menu {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(43, 44, 44);
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        padding: 16px 24px;
+    }
+
+    .navbar__icons {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 3px;
+        margin: 0px;
+
+
+    }
+
+    .navbar__icons li {
+        list-style: none;
+        padding: 8px 12px;
+    }
+
+
+
+
+
+    .navbar__togleBtn {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+
+    .navbar__menu.active {
+        display: flex;
+    }
+
+
+
+    .navbar__icons.active {
+        display: none;
+    }
+
+
+
+}
