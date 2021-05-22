@@ -1,2 +1,2 @@
-# JAVASCRIPT_B
-Git 및 공부용
+# FrontEnd_SpringSeason 
+# HTML&CSS 공부
