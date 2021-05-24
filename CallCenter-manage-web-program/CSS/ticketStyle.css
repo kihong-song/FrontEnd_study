@@ -1,4 +1,5 @@
 
+
 html{
     position:relative;
     min-height: 100%;
@@ -215,4 +216,33 @@ metadata{
     justify-content: flex-start;
     font-size: medium;
     
+}
+.bottom-part{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-categories{
+    display: flex;
+    flex-direction: column;
+   align-items:flex-start
+}
+.btnList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: auto;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+}
+.CallList{
+    border:solid;
+}
+.custommer-call-List{
+    
+    background-color: white;
+    border:solid;
 }
