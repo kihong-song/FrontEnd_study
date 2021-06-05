@@ -1,0 +1,114 @@
+.like-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+  width: 840px;
+  height: 248px;
+  position: relative;
+}
+.card{
+  padding: 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 25px -18px;
+}
+.card-image img{
+  width: 100%;
+  height: auto;
+}
+
+.card-image{
+
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-image: url("./assets/img-house-vertical.jpg");
+  border-radius: 6px;
+}
+
+.like-button{
+  border-style: none;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  top: 36px;
+  left: 36px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-image: url("./assets/icon-favorite.svg");
+  cursor: pointer;
+}
+.plus-badge{
+display: inline-block;
+  background-color: #92174D;
+  color:  white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 1px 8px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+
+.Entire{
+  
+  color: #7D858F;
+}
+.card-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+}
+.property-rate span{
+  color: #7D858F;
+}
+.property-rate  strong::before{
+  position: relative;
+  top: 2px;
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./assets/icon-star.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sr-only{
+  position: absolute;
+  width: 1px;
+  z-index: 100;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+
+.property-detail div:first-child {
+  margin-bottom: 8px;
+}
+
+.property-detail dd span::after {
+  content: "";
+  margin: 0 6px;
+}
+
+.property-detail dd span:last-child::after {
+  content: "";
+  margin: 0;
+}
