@@ -1,0 +1,32 @@
+$hongsi-good : 1;
+
+p{
+
+line-height: $hongsi-good;
+
+}
+$black:#000;
+$grey-1 :#191A20;
+$grey-3 :#3F4150;
+$grey-8 :#8C8D96;
+$grey-B :#B2B3B9;
+$grey-E :#E0E2E7;
+$grey-F :#F7F8FA;
+$white :#FFF;
+
+$blue :#3DA5F5;
+$blue-dark :#3186C4;
+$blue-light :#ECF6FE;
+
+button,
+input,
+textarea,
+select {
+  border: none;
+  background-color: transparent;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+}
